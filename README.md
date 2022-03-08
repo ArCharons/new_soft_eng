@@ -32,6 +32,7 @@ There are several python library for this project, which are:
 5. `pip3 install psycopg2` or `pip install psycopg2` for Windows
 6. `pip3 install tkinter` or `pip install tkinter` for Windows
 7. `pip3 install Django` or `pip install Django` for Windows
+
 if documetation are needed, type in terminal `pip freeze > requiremnets.txt` for the installed library info.
 ---
 ## Run the File
