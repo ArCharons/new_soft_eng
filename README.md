@@ -36,6 +36,18 @@ There are several python library for this project, which are:
 
 if documetation are needed, type in terminal `pip freeze > requiremnets.txt` for the installed library info.
 
+## Set up Database Connection
+In this case will use XAMPP as Local Host Manager
+1. root = 'localhost', This is a base root of Database connection
+2. port = '3306', This is a default port of Database connection
+3. user = 'root', The default user value
+4. password = `os_environ['MYSQL_PASS']`, for this password are organized by setting up on the environment variables
+    1. For Windows, go to Search and search 'Environment Variables'. After that in **user variables**, click **New** and set up the variable name and value. After finish input the data, click **OK**.
+    2. For Linux, open the terminal and type `sudo nano ~/.bashrc`. This a file that will contain the variable name and value. Inside the page, scroll down until the last script. In new line, type `<variable_name>=<value>`. 
+    ![Environment Variables in Linux](img/envi.png)
+    
+    For Example, `MYSQL_PASS=SAPAtegu19!@`. After that, do CTRL+X and SHIFT+Y for accepting the changes. Restart the Laptop for get the environment variables permanently.
+
 ## Run the File
 **Caution** Make Sure the Virtual Enviroment already active
 ![Active Virtual Environment](img/venv.png)

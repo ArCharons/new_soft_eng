@@ -1,6 +1,3 @@
-from PyQt5 import *
-from PyQt5.uic import loadUi
-
 import mysql.connector as mysql
 from mysql.connector import Error
 import sqlalchemy
