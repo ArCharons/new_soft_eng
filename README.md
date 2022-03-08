@@ -34,7 +34,7 @@ There are several python library for this project, which are:
 6. `pip3 install tkinter` or `pip install tkinter` for Windows
 7. `pip3 install Django` or `pip install Django` for Windows
 
-if documetation are needed, type in terminal `pip freeze > requiremnets.txt` for the installed library info.
+if documetation are needed, type in terminal `pip freeze > requirements.txt` for the installed library info.
 
 ## Set up Database Connection
 In this case will use XAMPP as Local Host Manager
