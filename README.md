@@ -1,5 +1,6 @@
 # Software Engineering - Virtual Environment in Python
----
+### This Repository are authored by RAFLI ERSANDY and SAMUEL PANDOHAN TERAMPIL GULTOM
+
 ## Installation
 1. Create new folder for the project
 2. Inside the folder, it will consist of:
