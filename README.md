@@ -20,10 +20,11 @@
      2. after finish, type `virtualenv [virtual-name]` for creating the Virtual Environment. The command can be used for Linux/MacOS enviroment as well.
      3. Back to step 4.2 for activate the Virtual Environment.
  6. The Project are set and ready for next step.
----
+
 ## Library Installation
 **Caution** Make Sure the Virtual Enviroment already active
 ![Active Virtual Environment](img/venv.png)
+
 There are several python library for this project, which are:
 1. `pip3 install matplotlib` or `pip install matplotlib` for Windows
 2. `pip3 install pandas` or `pip install pandas` for Windows
@@ -34,10 +35,11 @@ There are several python library for this project, which are:
 7. `pip3 install Django` or `pip install Django` for Windows
 
 if documetation are needed, type in terminal `pip freeze > requiremnets.txt` for the installed library info.
----
+
 ## Run the File
 **Caution** Make Sure the Virtual Enviroment already active
 ![Active Virtual Environment](img/venv.png)
+
 The Project Environment are set, just type `python main.py` or `python3 main.py` for Linux/MacOS
 
 ## Deactivate Virtual Environment
